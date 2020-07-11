@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/mock-api-server",
+  "version": "1.0.0",
+  "description": "Create mock REST API servers from JSON configuration",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/mock-api-server.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "bin": {
+    "mock-api-server": "bin/cli.js"
+  }
+}
