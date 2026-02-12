@@ -43,3 +43,21 @@ Server starts at `http://localhost:3456`.
 - Express 4
 - TypeScript
 - Custom fake data generators (no external faker dependency)
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+Mock API Server est un serveur de simulation d'API configurable, construit avec Express et TypeScript. Il permet de générer de faux endpoints REST avec des données réalistes, des délais de réponse configurables et une journalisation colorée des requêtes. Idéal pour le développement frontend sans dépendance à un backend réel.
+
+### Installation
+```bash
+npm install
+npm run dev
+```
+
+Le serveur démarre sur `http://localhost:3456`.
+
+### Utilisation
+Le serveur expose des endpoints simulés pour les utilisateurs, les articles et les produits avec pagination. Consultez la section **Endpoints** ci-dessus pour la liste complète des routes disponibles. L'endpoint `/api/_routes` liste toutes les routes enregistrées dynamiquement.
