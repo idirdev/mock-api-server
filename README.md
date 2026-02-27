@@ -61,3 +61,4 @@ Le serveur démarre sur `http://localhost:3456`.
 
 ### Utilisation
 Le serveur expose des endpoints simulés pour les utilisateurs, les articles et les produits avec pagination. Consultez la section **Endpoints** ci-dessus pour la liste complète des routes disponibles. L'endpoint `/api/_routes` liste toutes les routes enregistrées dynamiquement.
+
