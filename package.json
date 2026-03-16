@@ -18,5 +18,9 @@
   },
   "bin": {
     "mock-api-server": "bin/cli.js"
+  },
+  "homepage": "https://github.com/idirdev/mock-api-server",
+  "bugs": {
+    "url": "https://github.com/idirdev/mock-api-server/issues"
   }
 }
